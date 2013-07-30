@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "coffee -c index.coffee"
+    "prepublish": "coffee -c index.coffee; coffee -c examples/q-step.coffee; coffee -c examples/webdriver.coffee"
   },
   "repository": {
     "type": "git",
